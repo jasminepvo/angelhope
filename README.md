@@ -12,6 +12,9 @@
 8. git push origin v1.0-zira
 9. Compare and pull request, add comments, submit pull request
 10. Alert other contributor of pull request and merge 
+<<<<<<< HEAD
+11. Confirm merge
+=======
 11. Confirm merge 
 
 ### To add changes made on main to your local repository
