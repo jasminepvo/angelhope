@@ -1,30 +1,37 @@
-# angelhope
+# leya.app
+
+
+### Make Your Own Branch
+
+1. create a folder on local computer (mkdir)
+2. go to terminal
+3. git clone < main branch >
+3. git branch < name of your branch > (to create your own branch)
+4. git checkout < name of your branch > (to switch into your branch in the terminal)
+5. git status (to double check you are now under your branch)
+
+
+### 1. Pull from Main (to update your local files)
+
+1. Go to local folder & make sure you are in your branch (from terminal)
+2. git pull origin main (will pull all the updated files to your local files)
+
+### 2. Commit Changes (OFTEN)
+
+1. git add < file you are making changes >
+2. git commit -m " comment here "
+3. git push origin < your branch name >
+4. after making all the changes you want, go to next step
+
+
+### 3. Pull Request & Merge 
+
+1. Go to github and click Compare & Pull 
+2. Comment why you are making the pull request (changes that were made)
+3. Submit the Pull Request)
+4. After someone else check the PR and approve THEY merge it to the main branch (not you)
+
 
 ### Make sure all your changes are in your branch! 
-
-1. mkdir angelhope
-2. git clone
-3. git branch v1.0-zira
-4. git checkout v1.0-zira
-5. *make changes*
-6. git add .
-7. git commit -m "Add folders"
-8. git push origin v1.0-zira
-9. Compare and pull request, add comments, submit pull request
-10. Alert other contributor of pull request and merge 
-<<<<<<< HEAD
-11. Confirm merge
-=======
-11. Confirm merge 
-
-### To add changes made on main to your local repository
-
-1. Go to local folder
-2. git pull origin main
-3. *make changes*
-4. git add .
-5. git commit -m
-6. git push origin [branch name]
-7. Compare and pull request, add comments, submit pull request
-8. Alert other contributor of pull request and merge 
-9. Confirm merge 
+### COMMIT OFTEN!
+### ASK QUESTIONS!
