@@ -62,6 +62,24 @@ li {
 header {
 }
 
+/*#####################
+/* Section - Community
+/####################*/
+.join-our-community {
+	border: 2px solid salmon;
+	height: 50%;
+	width: 100%;
+}
+.community-main {
+	border: 2px solid lightseagreen;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.community-main * {
+	border: 2px solid lightgoldenrodyellow;
+}
+
 footer {
 }
 
