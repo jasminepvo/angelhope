@@ -1,16 +1,16 @@
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 .clear {
@@ -20,21 +20,25 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+:root {
+	--font: "Poppins", "Source Sans Pro", "Roboto Condensed", sans-serif;
+	--font-backup: "Montserrat Alternatives", "Source Sans Pro",
+		"Roboto Condensed", sans-serif;
+	--main-purple: #5461dd;
+	--main-black: #0a0a0a;
+	--main-offwhite: #dbdbdb;
 }
 
+body {
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
 }
 
 footer {
-
 }
 
 /******************************************
