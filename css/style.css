@@ -137,16 +137,37 @@ header nav button {
 }
 
 .features-box div {
-	height: 350px;
+	height: 320px;
 	width: 300px;
 	margin: 8px;
+	padding-top: 25px;
 	border-radius: 5px;
 	text-align: center;
-	line-height: 1.5;
 	border: 1px solid var(--main-purple);
 }
 
+.features-box div > i {
+	font-size: 50px;
+	color: #5461dd;
+	padding-bottom: 5px;
+}
 
+.boxes > span, .boxes > p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	padding: 8px 0 8px 0;
+}
+
+.boxes > span {  /*it wont go bold!!*/
+	font-weight: 800;
+} 
+
+.boxes > p {
+	margin: 0;
+	padding: 0 18px 0 18px;
+}
 
 /*#####################
 /* Section - Community
