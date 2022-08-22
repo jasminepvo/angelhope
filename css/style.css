@@ -110,6 +110,39 @@ header nav button {
 
 
 /*#####################
+/* Section - How It Works
+/####################*/
+
+.how-it-works {
+	height: 50%;
+	width: 100%;
+	border: 2px solid #5461dd;
+}
+
+.features-heading {
+	height: 20%;
+	width: 100%;
+	border: 2px solid salmon;
+}
+
+.features-box {
+	display: flex;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	padding-top: 20px;
+	border: 2px solid salmon;
+}
+
+.features-box div {
+	height: 350px;
+	width: 300px;
+	margin: 8px;
+	border-radius: 5px;
+	border: 1px solid var(--main-purple);
+}
+
+/*#####################
 /* Section - Community
 /####################*/
 .join-our-community {
