@@ -91,7 +91,14 @@ header nav button {
 	margin-top: 2px;
 	border-radius: 5px;
 	border-style: none;
+	background-color: #5461dd;
 }
+
+header nav button a {
+	color: white;
+}
+
+
 
 /*#####################
 /* Section - Home
