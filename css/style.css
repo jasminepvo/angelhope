@@ -94,6 +94,22 @@ header nav button {
 }
 
 /*#####################
+/* Section - Home
+/####################*/
+
+.home {
+	height: 50%;
+	width: 100%;
+	border: 2px solid var(--main-purple);
+}
+
+.home > section {
+	padding: 50px 0 0 100px;
+
+}
+
+
+/*#####################
 /* Section - Community
 /####################*/
 .join-our-community {
