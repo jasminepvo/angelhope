@@ -114,7 +114,7 @@ header nav button {
 /####################*/
 
 .how-it-works {
-	height: 50%;
+	height: 60%;
 	width: 100%;
 	border: 2px solid #5461dd;
 }
@@ -122,8 +122,10 @@ header nav button {
 .features-heading {
 	height: 20%;
 	width: 100%;
+	text-align: center;
 	border: 2px solid salmon;
 }
+
 
 .features-box {
 	display: flex;
