@@ -85,8 +85,12 @@ li {
 	padding: 15px;
 }
 
-nav ul button {
-	
+header nav button {
+	height: 40px;
+	width: 150px;
+	margin-top: 2px;
+	border-radius: 5px;
+	border-style: none;
 }
 
 /*#####################
