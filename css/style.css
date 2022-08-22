@@ -59,8 +59,6 @@ li {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-}
 
 /*#####################
 /* NavBar
@@ -68,11 +66,10 @@ header {
 
 nav {
 	height: 100%;
-	display:flex;
+	display: flex;
 	justify-content: flex-end;
 	align-content: center;
 	margin-right: 15px;
-
 }
 
 ul {
@@ -98,8 +95,6 @@ header nav button a {
 	color: white;
 }
 
-
-
 /*#####################
 /* Section - Home
 /####################*/
@@ -112,9 +107,7 @@ header nav button a {
 
 .home > section {
 	padding: 50px 0 0 100px;
-
 }
-
 
 /*#####################
 /* Section - How It Works
@@ -132,7 +125,6 @@ header nav button a {
 	text-align: center;
 	border: 2px solid salmon;
 }
-
 
 .features-box {
 	display: flex;
@@ -159,7 +151,8 @@ header nav button a {
 	padding-bottom: 5px;
 }
 
-.boxes > span, .boxes > p {
+.boxes > span,
+.boxes > p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -167,9 +160,10 @@ header nav button a {
 	padding: 8px 0 8px 0;
 }
 
-.boxes > span {  /*it wont go bold!!*/
+.boxes > span {
+	/*it wont go bold!!*/
 	font-weight: 800;
-} 
+}
 
 .boxes > p {
 	margin: 0;
@@ -192,9 +186,6 @@ header nav button a {
 }
 .community-main * {
 	border: 2px solid lightgoldenrodyellow;
-}
-
-footer {
 }
 
 /******************************************
