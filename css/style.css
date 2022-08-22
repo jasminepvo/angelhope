@@ -7,9 +7,6 @@ html {
 *::before,
 *::after {
 	box-sizing: inherit;
-	margin: 0;
-	padding: 0; 
-	/* added margin/padding so we can adjust each element as needed */
 }
 
 html,
@@ -63,8 +60,6 @@ li {
 /* LAYOUT
 /*******************************************/
 header {
-	height: 75px;
-	
 }
 
 /*#####################
@@ -76,6 +71,8 @@ nav {
 	display:flex;
 	justify-content: flex-end;
 	align-content: center;
+	margin-right: 15px;
+
 }
 
 ul {
@@ -88,6 +85,9 @@ li {
 	padding: 15px;
 }
 
+nav ul button {
+	
+}
 
 /*#####################
 /* Section - Community
