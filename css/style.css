@@ -63,6 +63,120 @@ header {
 }
 
 /*#####################
+/* NavBar
+/####################*/
+
+nav {
+	height: 100%;
+	display:flex;
+	justify-content: flex-end;
+	align-content: center;
+	margin-right: 15px;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+li {
+	padding: 15px;
+}
+
+header nav button {
+	height: 40px;
+	width: 140px;
+	margin-top: 2px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: #5461dd;
+}
+
+header nav button a {
+	color: white;
+}
+
+
+
+/*#####################
+/* Section - Home
+/####################*/
+
+.home {
+	height: 50%;
+	width: 100%;
+	border: 2px solid var(--main-purple);
+}
+
+.home > section {
+	padding: 50px 0 0 100px;
+
+}
+
+
+/*#####################
+/* Section - How It Works
+/####################*/
+
+.how-it-works {
+	height: 60%;
+	width: 100%;
+	border: 2px solid #5461dd;
+}
+
+.features-heading {
+	height: 20%;
+	width: 100%;
+	text-align: center;
+	border: 2px solid salmon;
+}
+
+
+.features-box {
+	display: flex;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	padding-top: 60px;
+	border: 2px solid salmon;
+}
+
+.features-box div {
+	height: 320px;
+	width: 300px;
+	margin: 8px;
+	padding-top: 25px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid var(--main-purple);
+}
+
+.features-box div > i {
+	font-size: 50px;
+	color: #5461dd;
+	padding-bottom: 5px;
+}
+
+.boxes > span, .boxes > p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	padding: 8px 0 8px 0;
+}
+
+.boxes > span {  /*it wont go bold!!*/
+	font-weight: 800;
+} 
+
+.boxes > p {
+	margin: 0;
+	padding: 0 18px 0 18px;
+}
+
+/*#####################
 /* Section - Community
 /####################*/
 .join-our-community {
