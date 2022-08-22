@@ -141,8 +141,12 @@ header nav button {
 	width: 300px;
 	margin: 8px;
 	border-radius: 5px;
+	text-align: center;
+	line-height: 1.5;
 	border: 1px solid var(--main-purple);
 }
+
+
 
 /*#####################
 /* Section - Community
