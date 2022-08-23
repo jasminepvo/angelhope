@@ -227,15 +227,15 @@ h6 {
 /* Section - Founder Story
 /####################*/
 .founder-story {
-	border: 2px solid green;
-	height: 90%;
+	/* border: 2px solid green; */
+	height: 150%;
 	width: 100%;
 	text-align: center;
 }
 .start,
 .research,
 .goal {
-	height: 30%;
+	height: 40%;
 	width: 100%;
 	/* border: 2px solid lightskyblue; */
 	display: flex;
@@ -244,6 +244,7 @@ h6 {
 	/* border: 2px solid salmon; */
 	height: 100%;
 	width: 50%;
+	padding: 10px;
 }
 .empty {
 	/* border: 2px solid rgb(0, 21, 255); */
@@ -257,7 +258,7 @@ div.vertical-line {
 	float: left; /* Causes the line to float to left of content. 
 		You can instead use position:absolute or display:inline-block
 		if this fits better with your design */
-	height: 200px;
+	height: 300px;
 }
 /******************************************
 /* ADDITIONAL STYLES
