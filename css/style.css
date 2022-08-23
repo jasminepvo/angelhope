@@ -102,7 +102,7 @@ header nav button a {
 .home {
 	height: 50%;
 	width: 100%;
-	border: 2px solid var(--main-purple);
+	border: 2px solid #5461dd;
 	display: flex;
 	
 }
@@ -110,11 +110,16 @@ header nav button a {
 .home > section {
 	border: 2px solid coral;
 	height: 100%;
-	width: 50%;
+
 }
 
 .main-header {
-	padding: 50px 0 0 50px;	
+	width: 60%;
+	padding: 50px 0 0 80px;	
+}
+
+.main-prototype {
+	width: 40%;
 }
 
 
