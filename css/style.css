@@ -223,7 +223,42 @@ header nav button a {
 h6 {
 	margin: 5px;
 }
-
+/*#####################
+/* Section - Founder Story
+/####################*/
+.founder-story {
+	border: 2px solid green;
+	height: 90%;
+	width: 100%;
+	text-align: center;
+}
+.start,
+.research,
+.goal {
+	height: 30%;
+	width: 100%;
+	/* border: 2px solid lightskyblue; */
+	display: flex;
+}
+.founder-content {
+	/* border: 2px solid salmon; */
+	height: 100%;
+	width: 50%;
+}
+.empty {
+	/* border: 2px solid rgb(0, 21, 255); */
+	height: 100%;
+	width: 50%;
+}
+div.vertical-line {
+	width: 0px; /* Line width */
+	border: 1px inset; /* 3D Line color */
+	height: 100%; /* Override in-line if you want specific height. */
+	float: left; /* Causes the line to float to left of content. 
+		You can instead use position:absolute or display:inline-block
+		if this fits better with your design */
+	height: 200px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
