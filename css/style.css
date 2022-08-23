@@ -185,8 +185,9 @@ header nav button a {
 	text-align: center;
 	padding: 5% 100px;
 }
-.community-main * {
-	border: 2px solid lightgoldenrodyellow;
+.community-form * {
+	border: 2px solid var(--main-purple);
+	padding: 5px;
 }
 
 /*#####################
