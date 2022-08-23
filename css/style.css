@@ -240,17 +240,20 @@ h6 {
 	/* border: 2px solid lightskyblue; */
 	display: flex;
 }
-.founder-content {
+.founder-left,
+.founder-right {
 	/* border: 2px solid salmon; */
 	height: 100%;
 	width: 50%;
 	padding: 10px;
 }
-.empty {
-	/* border: 2px solid rgb(0, 21, 255); */
-	height: 100%;
-	width: 50%;
+.founder-left {
+	text-align: right;
 }
+.founder-right {
+	text-align: left;
+}
+
 div.vertical-line {
 	width: 0px; /* Line width */
 	border: 1px inset; /* 3D Line color */
