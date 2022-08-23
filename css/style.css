@@ -103,11 +103,20 @@ header nav button a {
 	height: 50%;
 	width: 100%;
 	border: 2px solid var(--main-purple);
+	display: flex;
+	
 }
 
 .home > section {
-	padding: 50px 0 0 100px;
+	border: 2px solid coral;
+	height: 100%;
+	width: 50%;
 }
+
+.main-header {
+	padding: 50px 0 0 50px;	
+}
+
 
 /*#####################
 /* Section - How It Works
