@@ -59,8 +59,6 @@ li {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-}
 
 /*#####################
 /* NavBar
@@ -68,11 +66,10 @@ header {
 
 nav {
 	height: 100%;
-	display:flex;
+	display: flex;
 	justify-content: flex-end;
 	align-content: center;
 	margin-right: 15px;
-
 }
 
 ul {
@@ -98,8 +95,6 @@ header nav button a {
 	color: white;
 }
 
-
-
 /*#####################
 /* Section - Home
 /####################*/
@@ -112,9 +107,7 @@ header nav button a {
 
 .home > section {
 	padding: 50px 0 0 100px;
-
 }
-
 
 /*#####################
 /* Section - How It Works
@@ -132,7 +125,6 @@ header nav button a {
 	text-align: center;
 	border: 2px solid salmon;
 }
-
 
 .features-box {
 	display: flex;
@@ -159,7 +151,8 @@ header nav button a {
 	padding-bottom: 5px;
 }
 
-.boxes > span, .boxes > p {
+.boxes > span,
+.boxes > p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -167,9 +160,10 @@ header nav button a {
 	padding: 8px 0 8px 0;
 }
 
-.boxes > span {  /*it wont go bold!!*/
+.boxes > span {
+	/*it wont go bold!!*/
 	font-weight: 800;
-} 
+}
 
 .boxes > p {
 	margin: 0;
@@ -177,11 +171,11 @@ header nav button a {
 }
 
 /*#####################
-/* Section - Community
+/* Section - Join Our Community
 /####################*/
 .join-our-community {
 	border: 2px solid salmon;
-	height: 50%;
+	height: 30%;
 	width: 100%;
 }
 .community-main {
@@ -189,14 +183,86 @@ header nav button a {
 	height: 100%;
 	width: 100%;
 	text-align: center;
+	padding: 5% 100px;
 }
-.community-main * {
-	border: 2px solid lightgoldenrodyellow;
+.community-form * {
+	border: 2px solid var(--main-purple);
+	padding: 5px;
 }
 
-footer {
+/*#####################
+/* Section - Partner With Us
+/####################*/
+.partner-with-us {
+	border: 2px solid salmon;
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+.partners-logos {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
 }
 
+.testimonials-box {
+	border: 2px solid var(--main-purple);
+	height: 60%;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.testimonials-box p {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0, 200px;
+}
+.testimonials-box h5,
+h6 {
+	margin: 5px;
+}
+/*#####################
+/* Section - Founder Story
+/####################*/
+.founder-story {
+	/* border: 2px solid green; */
+	height: 150%;
+	width: 100%;
+	text-align: center;
+}
+.start,
+.research,
+.goal {
+	height: 40%;
+	width: 100%;
+	/* border: 2px solid lightskyblue; */
+	display: flex;
+}
+.founder-left,
+.founder-right {
+	/* border: 2px solid salmon; */
+	height: 100%;
+	width: 50%;
+	padding: 10px;
+}
+.founder-left {
+	text-align: right;
+}
+.founder-right {
+	text-align: left;
+}
+
+div.vertical-line {
+	width: 0px; /* Line width */
+	border: 1px inset; /* 3D Line color */
+	height: 100%; /* Override in-line if you want specific height. */
+	float: left; /* Causes the line to float to left of content. 
+		You can instead use position:absolute or display:inline-block
+		if this fits better with your design */
+	height: 300px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
