@@ -242,20 +242,29 @@ h6 {
 /*#####################
 /* Section - About Us
 /####################*/
-.founder-story {
+.about-us {
 	outline: 2px solid orange;
-	height: 150%;
+	height: 200%;
 	width: 100%;
-	text-align: center;
 }
-.start,
-.research,
-.goal {
-	height: 40%;
+.about-heading h1 {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 3%;
+}
+.about-start,
+.about-research,
+.about-goal {
+	height: 20%;
 	width: 100%;
 	/* border: 2px solid lightskyblue; */
 	display: flex;
 }
+.about-img {
+	height: 20%;
+	width: 100%;
+}
+
 .founder-left,
 .founder-right {
 	/* border: 2px solid salmon; */
