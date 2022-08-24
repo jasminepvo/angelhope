@@ -298,18 +298,23 @@ h6 {
 	height: 80%;
 	width: 100%;
 	outline: 2px solid lightseagreen;
-	display: flex;
 }
-.partner-left {
-	height: 100%;
-	width: 50%;
-	outline: 2px solid maroon;
+.partner-top {
+	border: 2px solid var(--main-purple);
+	background-color: var(--main-purple);
+	height: 25%;
+	width: 100%;
 }
-.partner-right {
-	height: 100%;
-	width: 50%;
-	outline: 2px solid blue;
+.partner-bottom {
+	border: 2px solid hotpink;
+	height: 75%;
+	width: 100%;
 }
+/* .partner-floating {
+	height: 50%;
+	width: 100%;
+	outline: 2px solid;
+} */
 
 /*#####################
 /* Section - Footer
