@@ -206,40 +206,6 @@ header nav button a {
 }
 
 /*#####################
-/* Section - Partner With Us
-/####################*/
-.partner-with-us {
-	outline: 2px solid salmon;
-	height: 30%;
-	width: 100%;
-	display: flex;
-}
-.partners-logos {
-	height: 20%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	padding: 50px 0;
-}
-
-.testimonials-box {
-	outline: 2px solid var(--main-purple);
-	height: 60%;
-	width: 60%;
-	margin: auto;
-	text-align: center;
-}
-.testimonials-box p {
-	padding-left: 50px;
-	padding-right: 50px;
-	margin: 0, 200px;
-}
-.testimonials-box h5,
-h6 {
-	margin: 5px;
-}
-
-/*#####################
 /* Section - About Us
 /####################*/
 .about-us {
@@ -287,6 +253,40 @@ div.vertical-line {
 		You can instead use position:absolute or display:inline-block
 		if this fits better with your design */
 	height: 300px;
+}
+
+/*#####################
+/* Section - Partnerships
+/####################*/
+.partnerships {
+	outline: 2px solid salmon;
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+.partners-logos {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+.testimonials-box {
+	outline: 2px solid var(--main-purple);
+	height: 60%;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.testimonials-box p {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0, 200px;
+}
+.testimonials-box h5,
+h6 {
+	margin: 5px;
 }
 
 /*#####################
