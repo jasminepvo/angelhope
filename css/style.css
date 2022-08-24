@@ -201,7 +201,7 @@ header nav button a {
 	padding: 5% 100px;
 }
 .community-form * {
-	border: 2px solid var(--main-purple);
+	outline: 2px solid var(--main-purple);
 	padding: 5px;
 }
 
@@ -209,7 +209,7 @@ header nav button a {
 /* Section - Partner With Us
 /####################*/
 .partner-with-us {
-	border: 2px solid salmon;
+	outline: 2px solid salmon;
 	height: 30%;
 	width: 100%;
 	display: flex;
@@ -223,7 +223,7 @@ header nav button a {
 }
 
 .testimonials-box {
-	border: 2px solid var(--main-purple);
+	outline: 2px solid var(--main-purple);
 	height: 60%;
 	width: 60%;
 	margin: auto;
