@@ -104,24 +104,21 @@ header nav button a {
 	width: 100%;
 	outline: 2px solid #5461dd;
 	display: flex;
-	
 }
 
 .home > section {
 	outline: 2px solid coral;
 	height: 100%;
-
 }
 
 .main-header {
 	width: 60%;
-	padding: 50px 0 0 80px;	
+	padding: 50px 0 0 80px;
 }
 
 .main-prototype {
 	width: 40%;
 }
-
 
 /*#####################
 /* Section - How It Works
@@ -286,16 +283,16 @@ div.vertical-line {
 /* Section -Contact Us
 /####################*/
 
-.contact-us { /* TEMPORARY! had to see what it looked like for the footer*/
-	height: 20%;
+.contact-us {
+	/* TEMPORARY! had to see what it looked like for the footer*/
+	height: 50%;
 	width: 100%;
 	outline: 2px solid lightseagreen;
 }
 
-
 /*#####################
 /* Section - Footer
-/####################*/ 
+/####################*/
 
 footer {
 	height: 20%;
