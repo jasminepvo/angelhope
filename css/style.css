@@ -290,14 +290,25 @@ h6 {
 }
 
 /*#####################
-/* Section -Contact Us
+/* Section - Partner With Us
 /####################*/
 
-.contact-us {
+.partner-with-us {
 	/* TEMPORARY! had to see what it looked like for the footer*/
-	height: 50%;
+	height: 80%;
 	width: 100%;
 	outline: 2px solid lightseagreen;
+	display: flex;
+}
+.partner-left {
+	height: 100%;
+	width: 50%;
+	outline: 2px solid maroon;
+}
+.partner-right {
+	height: 100%;
+	width: 50%;
+	outline: 2px solid blue;
 }
 
 /*#####################
