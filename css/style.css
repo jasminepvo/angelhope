@@ -304,17 +304,22 @@ h6 {
 	background-color: var(--main-purple);
 	height: 25%;
 	width: 100%;
+	position: relative;
 }
 .partner-bottom {
 	border: 2px solid hotpink;
 	height: 75%;
 	width: 100%;
 }
-/* .partner-floating {
-	height: 50%;
-	width: 100%;
-	outline: 2px solid;
-} */
+.partner-floating {
+	background-color: grey;
+	position: absolute;
+	height: 625px;
+	width: 400px;
+	/*top right bottom left*/
+	inset: 7em 4em -30em 20em;
+	border-radius: 2%;
+}
 
 /*#####################
 /* Section - Footer
