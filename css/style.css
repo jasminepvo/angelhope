@@ -226,7 +226,7 @@ header nav button a {
 /####################*/
 .about-us {
 	/* outline: 2px solid orange; */
-	height: 200%;
+	height: 240%;
 	width: 100%;
 	background-image: linear-gradient(
 		var(--main-black),
@@ -328,6 +328,7 @@ h6 {
 }
 .partner-top h1 {
 	margin: 0 auto;
+	font-size: 3rem;
 }
 
 .partner-bottom {
