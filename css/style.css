@@ -145,6 +145,7 @@ header nav button a {
 	padding-top: 20px;
 	text-align: center;
 	/* outline: 2px solid salmon; */
+	padding: 20px 10%;
 }
 
 .features-heading h1 {
