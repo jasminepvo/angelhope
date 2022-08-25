@@ -357,10 +357,10 @@ h6 {
 	justify-content: center;
 	background-color: var(--main-purple);
 }
-.partner-form span {
+.partner-form p {
 	position: relative;
-	bottom: -50px;
 	text-align: center;
+	display: flex;
 }
 
 /*#####################
@@ -392,7 +392,7 @@ html body footer > .right-footer {
 }
 
 /*#############################################################################*/
-	/********************** CONTACT US PAGE  ******************************/
+/********************** CONTACT US PAGE  ******************************/
 /*#############################################################################*/
 
 .contactuspage {
@@ -443,7 +443,6 @@ div > h2 {
 	font-size: 45px;
 }
 
-
 .contactright div {
 	height: 100%;
 	width: 100%;
@@ -460,7 +459,9 @@ div > h2 {
 	padding: 0 0 30px 20px;
 }
 
-.contactright form, .contactright input, .contactright textarea {
+.contactright form,
+.contactright input,
+.contactright textarea {
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 10px;
@@ -469,6 +470,7 @@ div > h2 {
 	border: none;
 }
 
-.contactright input, .contactright textarea {
-	border-bottom:1px solid #dbdbdb;
+.contactright input,
+.contactright textarea {
+	border-bottom: 1px solid #dbdbdb;
 }
