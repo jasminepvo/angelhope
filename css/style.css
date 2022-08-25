@@ -422,7 +422,7 @@ html body footer > .right-footer {
 }
 
 .contactleft div {
-	height: 80%;
+	height: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -445,4 +445,30 @@ div > h2 {
 }
 
 
+.contactright div {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.contactright div span {
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 0 0 30px 20px;
+}
+
+.contactright form, .contactright input, .contactright textarea {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.contactright input, .contactright textarea {
+	border-bottom:1px solid #dbdbdb;
+}
