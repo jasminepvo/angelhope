@@ -102,12 +102,12 @@ header nav button a {
 .home {
 	height: 50%;
 	width: 100%;
-	outline: 2px solid #5461dd;
+	/* outline: 2px solid #5461dd; */
 	display: flex;
 }
 
 .home > section {
-	outline: 2px solid coral;
+	/* outline: 2px solid coral; */
 	height: 100%;
 }
 
@@ -134,7 +134,7 @@ header nav button a {
 	width: 100%;
 	padding-top: 20px;
 	text-align: center;
-	outline: 2px solid salmon;
+	/* outline: 2px solid salmon; */
 }
 
 .features-heading h1 {
@@ -147,7 +147,7 @@ header nav button a {
 	height: 80%;
 	width: 100%;
 	padding-top: 60px;
-	outline: 2px solid salmon;
+	/* outline: 2px solid salmon; */
 }
 
 .features-box div {
@@ -189,12 +189,12 @@ header nav button a {
 /* Section - Join Our Community
 /####################*/
 .join-our-community {
-	border: 2px solid salmon;
+	/* border: 2px solid salmon; */
 	height: 30%;
 	width: 100%;
 }
 .community-main {
-	border: 2px solid lightseagreen;
+	/* border: 2px solid lightseagreen; */
 	height: 100%;
 	width: 100%;
 	text-align: center;
@@ -209,7 +209,7 @@ header nav button a {
 /* Section - About Us
 /####################*/
 .about-us {
-	outline: 2px solid orange;
+	/* outline: 2px solid orange; */
 	height: 200%;
 	width: 100%;
 }
@@ -259,7 +259,7 @@ div.vertical-line {
 /* Section - Partnerships
 /####################*/
 .partnerships {
-	outline: 2px solid salmon;
+	/* outline: 2px solid salmon; */
 	height: 30%;
 	width: 100%;
 	display: flex;
@@ -295,7 +295,7 @@ h6 {
 .partner-with-us {
 	height: 80%;
 	width: 100%;
-	outline: 2px solid lightseagreen;
+	/* outline: 2px solid lightseagreen; */
 }
 .partner-top {
 	border: 2px solid var(--main-purple);
@@ -395,7 +395,7 @@ footer div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	outline: 2px solid white;
+	/* outline: 2px solid white; */
 }
 
 html body footer > .right-footer {
