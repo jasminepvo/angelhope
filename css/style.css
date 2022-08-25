@@ -339,7 +339,8 @@ h6 {
 	/* outline: 2px solid salmon; */
 	padding: 2%;
 }
-.partner-form input {
+.partner-form input,
+textarea {
 	padding: 3%;
 	margin: 2%;
 	/* outline: 2px solid lime; */
@@ -348,6 +349,12 @@ h6 {
 	background-color: rgb(217, 217, 246);
 	justify-content: center;
 	align-items: center;
+}
+.partner-form span {
+	margin-left: 2%;
+}
+.partner-form textarea {
+	margin-top: 0;
 }
 #message {
 	width: 90%;
