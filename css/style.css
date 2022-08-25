@@ -230,8 +230,8 @@ header nav button a {
 	width: 100%;
 	background-image: linear-gradient(
 		var(--main-black),
-		var(--main-purple),
-		var(--main-black)
+		var(--main-black),
+		var(--main-purple)
 	);
 }
 .about-heading h1 {
@@ -317,17 +317,17 @@ h6 {
 	height: 80%;
 	width: 100%;
 	/* outline: 2px solid lightseagreen; */
+	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 .partner-top {
-	border: 2px solid var(--main-purple);
-	background-color: var(--main-purple);
+	/* background-color: var(--main-purple); */
 	height: 25%;
 	width: 100%;
 	padding-left: 5%;
 	color: var(--main-black);
 }
 .partner-top h1 {
-	margin-bottom: 0;
+	margin: 0 auto;
 }
 
 .partner-bottom {
@@ -351,7 +351,7 @@ h6 {
 }
 
 .partner-form {
-	border: 2px solid var(--main-offwhite);
+	/* border: 2px solid var(--main-offwhite); */
 	height: 100%;
 	width: 60%;
 	margin-right: 10%;
@@ -359,6 +359,7 @@ h6 {
 	z-index: 1;
 	padding: 2%;
 	border-radius: 2%;
+	background-color: var(--main-black);
 }
 .partner-form h3 {
 	margin: auto;
