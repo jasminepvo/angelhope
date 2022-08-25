@@ -48,6 +48,8 @@ video {
 
 body {
 	font-family: var(--font);
+	background-color: var(--main-black);
+	color: var(--main-offwhite);
 }
 a {
 	text-decoration: none;
