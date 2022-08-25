@@ -121,6 +121,12 @@ header nav button a {
 	width: 60%;
 	padding: 50px 0 0 80px;
 }
+.main-header h1 {
+	margin-left: 0;
+	font-size: 3.5rem;
+	font-weight: 800;
+	color: var(--main-purple);
+}
 
 .main-prototype {
 	width: 40%;
