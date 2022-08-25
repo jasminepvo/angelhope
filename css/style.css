@@ -58,6 +58,9 @@ a {
 li {
 	list-style: none;
 }
+h1 {
+	font-size: 2.5rem;
+}
 
 /******************************************
 /* LAYOUT
@@ -193,7 +196,7 @@ header nav button a {
 /####################*/
 .join-our-community {
 	/* border: 2px solid salmon; */
-	height: 30%;
+	height: 40%;
 	width: 100%;
 }
 .community-main {
@@ -204,8 +207,12 @@ header nav button a {
 	padding: 5% 100px;
 }
 .community-form * {
-	outline: 2px solid var(--main-purple);
-	padding: 5px;
+	padding: 1.2%;
+	border-radius: 2%;
+	border: none;
+}
+.community-form button {
+	background-color: var(--main-purple);
 }
 
 /*#####################
@@ -309,7 +316,6 @@ h6 {
 	color: var(--main-black);
 }
 .partner-top h1 {
-	font-size: 3rem;
 	margin-bottom: 0;
 }
 
