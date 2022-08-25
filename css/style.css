@@ -390,3 +390,21 @@ html body footer > .right-footer {
 	font-size: 24px;
 	gap: 20px;
 }
+
+/*#############################################################################*/
+	/********************** CONTACT US PAGE  ******************************/
+/*#############################################################################*/
+
+.contactuspage {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.contactuspage section {
+	height: 100%;
+	width: 50%;
+	border:2px solid #5461dd;
+
+}
