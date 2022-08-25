@@ -136,6 +136,7 @@ header nav button a {
 .how-it-works {
 	height: 60%;
 	width: 100%;
+	background-image: linear-gradient(var(--main-black), var(--main-purple));
 }
 
 .features-heading {
@@ -167,6 +168,8 @@ header nav button a {
 	border-radius: 5px;
 	text-align: center;
 	outline: 1px solid var(--main-purple);
+	background-color: white;
+	color: var(--main-black);
 }
 
 .features-box div > i {
