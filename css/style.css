@@ -292,9 +292,7 @@ h6 {
 /*#####################
 /* Section - Partner With Us
 /####################*/
-
 .partner-with-us {
-	/* TEMPORARY! had to see what it looked like for the footer*/
 	height: 80%;
 	width: 100%;
 	outline: 2px solid lightseagreen;
@@ -321,6 +319,13 @@ h6 {
 	text-align: left;
 	padding: 5%;
 }
+.partner-steps p {
+	/* font-size: smaller; */
+}
+.partner-steps h4 {
+	font-size: 1.2rem;
+}
+
 .partner-form {
 	border: 2px solid midnightblue;
 	height: 100%;
