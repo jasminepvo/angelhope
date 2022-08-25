@@ -390,3 +390,85 @@ html body footer > .right-footer {
 	font-size: 24px;
 	gap: 20px;
 }
+
+/*#############################################################################*/
+	/********************** CONTACT US PAGE  ******************************/
+/*#############################################################################*/
+
+.contactuspage {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.contactuspage section {
+	height: 100%;
+	width: 50%;
+}
+
+.centered-img {
+	height: 60%;
+	width: 90%;
+	outline: 2px solid #5461dd;
+}
+
+.contactuspage button {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px;
+	margin: 10px;
+}
+
+.contactleft div {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div > h1 {
+	font-size: 45px;
+	margin: 0 0 0 25px;
+	display: flex;
+	align-self: flex-start;
+}
+
+div > h2 {
+	display: flex;
+	align-self: flex-end;
+	margin: 0 25px 0 0;
+	font-size: 45px;
+}
+
+
+.contactright div {
+	height: 100%;
+	width: 100%;
+	padding: 200px 30px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactright div span {
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 0 0 30px 20px;
+}
+
+.contactright form, .contactright input, .contactright textarea {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.contactright input, .contactright textarea {
+	border-bottom:1px solid #dbdbdb;
+}
