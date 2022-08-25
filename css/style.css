@@ -306,7 +306,13 @@ h6 {
 	height: 25%;
 	width: 100%;
 	padding-left: 5%;
+	color: var(--main-black);
 }
+.partner-top h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
 .partner-bottom {
 	/* border: 2px solid hotpink; */
 	height: 75%;
@@ -322,15 +328,13 @@ h6 {
 	text-align: left;
 	padding: 5%;
 }
-.partner-steps p {
-	/* font-size: smaller; */
-}
 .partner-steps h4 {
 	font-size: 1.2rem;
+	color: var(--main-purple);
 }
 
 .partner-form {
-	border: 2px solid midnightblue;
+	border: 2px solid var(--main-offwhite);
 	height: 100%;
 	width: 60%;
 	margin-right: 10%;
@@ -354,9 +358,10 @@ textarea {
 	/* outline: 2px solid lime; */
 	border-radius: 2%;
 	border: none;
-	background-color: rgb(217, 217, 246);
+	background-color: var(--main-offwhite);
 	justify-content: center;
 	align-items: center;
+	color: var(--main-black);
 }
 .partner-form span {
 	margin-left: 2%;
@@ -387,7 +392,7 @@ footer {
 	height: 10%;
 	width: 100%;
 	display: flex;
-	color: white;
+	color: var(--main-offwhite);
 	background-color: black;
 	outline: 2px solid black;
 }
