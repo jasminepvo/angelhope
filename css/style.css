@@ -104,24 +104,21 @@ header nav button a {
 	width: 100%;
 	outline: 2px solid #5461dd;
 	display: flex;
-	
 }
 
 .home > section {
 	outline: 2px solid coral;
 	height: 100%;
-
 }
 
 .main-header {
 	width: 60%;
-	padding: 50px 0 0 80px;	
+	padding: 50px 0 0 80px;
 }
 
 .main-prototype {
 	width: 40%;
 }
-
 
 /*#####################
 /* Section - How It Works
@@ -204,60 +201,36 @@ header nav button a {
 	padding: 5% 100px;
 }
 .community-form * {
-	border: 2px solid var(--main-purple);
+	outline: 2px solid var(--main-purple);
 	padding: 5px;
 }
 
 /*#####################
-/* Section - Partner With Us
+/* Section - About Us
 /####################*/
-.partner-with-us {
-	border: 2px solid salmon;
-	height: 30%;
+.about-us {
+	outline: 2px solid orange;
+	height: 200%;
 	width: 100%;
-	display: flex;
 }
-.partners-logos {
+.about-heading h1 {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 3%;
+}
+.about-start,
+.about-research,
+.about-goal {
 	height: 20%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	padding: 50px 0;
-}
-
-.testimonials-box {
-	border: 2px solid var(--main-purple);
-	height: 60%;
-	width: 60%;
-	margin: auto;
-	text-align: center;
-}
-.testimonials-box p {
-	padding-left: 50px;
-	padding-right: 50px;
-	margin: 0, 200px;
-}
-.testimonials-box h5,
-h6 {
-	margin: 5px;
-}
-/*#####################
-/* Section - Founder Story
-/####################*/
-.founder-story {
-	/* border: 2px solid green; */
-	height: 150%;
-	width: 100%;
-	text-align: center;
-}
-.start,
-.research,
-.goal {
-	height: 40%;
 	width: 100%;
 	/* border: 2px solid lightskyblue; */
 	display: flex;
 }
+.about-img {
+	height: 20%;
+	width: 100%;
+}
+
 .founder-left,
 .founder-right {
 	/* border: 2px solid salmon; */
@@ -283,22 +256,119 @@ div.vertical-line {
 }
 
 /*#####################
-/* Section -Contact Us
+/* Section - Partnerships
+/####################*/
+.partnerships {
+	outline: 2px solid salmon;
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+.partners-logos {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+.testimonials-box {
+	outline: 2px solid var(--main-purple);
+	height: 60%;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.testimonials-box p {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0, 200px;
+}
+.testimonials-box h5,
+h6 {
+	margin: 5px;
+}
+
+/*#####################
+/* Section - Partner With Us
 /####################*/
 
-.contact-us { /* TEMPORARY! had to see what it looked like for the footer*/
-	height: 20%;
+.partner-with-us {
+	/* TEMPORARY! had to see what it looked like for the footer*/
+	height: 80%;
 	width: 100%;
 	outline: 2px solid lightseagreen;
 }
-
+.partner-top {
+	border: 2px solid var(--main-purple);
+	background-color: var(--main-purple);
+	height: 25%;
+	width: 100%;
+	padding-left: 5%;
+}
+.partner-bottom {
+	/* border: 2px solid hotpink; */
+	height: 75%;
+	width: 100%;
+	display: flex;
+}
+.partner-steps {
+	height: 100%;
+	width: 40%;
+	/* outline: 2px solid yellow; */
+}
+.partner-steps {
+	text-align: left;
+	padding: 5%;
+}
+.partner-form {
+	border: 2px solid midnightblue;
+	height: 100%;
+	width: 60%;
+	margin-right: 10%;
+	margin-top: -80px;
+	z-index: 1;
+	padding: 2%;
+	border-radius: 2%;
+}
+.partner-form h3 {
+	margin: auto;
+	margin-bottom: 40px;
+}
+.partner-form form {
+	/* outline: 2px solid salmon; */
+	padding: 2%;
+}
+.partner-form input {
+	padding: 3%;
+	margin: 2%;
+	/* outline: 2px solid lime; */
+	border-radius: 2%;
+	border: none;
+	background-color: rgb(217, 217, 246);
+	justify-content: center;
+	align-items: center;
+}
+#message {
+	width: 90%;
+}
+#button {
+	display: flex;
+	justify-content: center;
+	background-color: var(--main-purple);
+}
+.partner-form span {
+	position: relative;
+	bottom: -50px;
+	text-align: center;
+}
 
 /*#####################
 /* Section - Footer
-/####################*/ 
+/####################*/
 
 footer {
-	height: 20%;
+	height: 10%;
 	width: 100%;
 	display: flex;
 	color: white;
