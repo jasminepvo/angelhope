@@ -304,21 +304,63 @@ h6 {
 	background-color: var(--main-purple);
 	height: 25%;
 	width: 100%;
-	position: relative;
+	padding-left: 5%;
 }
 .partner-bottom {
-	border: 2px solid hotpink;
+	/* border: 2px solid hotpink; */
 	height: 75%;
 	width: 100%;
+	display: flex;
 }
-.partner-floating {
-	background-color: grey;
-	position: absolute;
-	height: 625px;
-	width: 400px;
-	/*top right bottom left*/
-	inset: 7em 4em -30em 20em;
+.partner-steps {
+	height: 100%;
+	width: 40%;
+	/* outline: 2px solid yellow; */
+}
+.partner-steps {
+	text-align: left;
+	padding: 5%;
+}
+.partner-form {
+	border: 2px solid midnightblue;
+	height: 100%;
+	width: 60%;
+	margin-right: 10%;
+	margin-top: -80px;
+	z-index: 1;
+	padding: 2%;
 	border-radius: 2%;
+}
+.partner-form h3 {
+	margin: auto;
+	margin-bottom: 40px;
+}
+.partner-form form {
+	/* outline: 2px solid salmon; */
+	padding: 2%;
+}
+.partner-form input {
+	padding: 3%;
+	margin: 2%;
+	/* outline: 2px solid lime; */
+	border-radius: 2%;
+	border: none;
+	background-color: rgb(217, 217, 246);
+	justify-content: center;
+	align-items: center;
+}
+#message {
+	width: 90%;
+}
+#button {
+	display: flex;
+	justify-content: center;
+	background-color: var(--main-purple);
+}
+.partner-form span {
+	position: relative;
+	bottom: -50px;
+	text-align: center;
 }
 
 /*#####################
