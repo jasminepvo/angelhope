@@ -219,7 +219,7 @@ header nav button a {
 	border-radius: 2%;
 	border: none;
 }
-.community-form button{
+.community-form button {
 	display: inline-block;
 	width: 20%;
 	background-color: var(--main-purple);
@@ -232,7 +232,6 @@ header nav button a {
 .community-form button a {
 	color: white;
 }
-
 
 /*#####################
 /* Section - About Us
@@ -339,11 +338,11 @@ h6 {
 	margin: 0 auto;
 	font-size: 3rem;
 	text-align: center;
-	color:#dbdbdb;
+	color: #dbdbdb;
 }
 
 .partner-top span {
-	color:#dbdbdb;
+	color: #dbdbdb;
 }
 
 .partner-bottom {
@@ -368,14 +367,12 @@ h6 {
 
 .partner-form {
 	/* border: 2px solid var(--main-offwhite); */
-	height: 110%;
-	width: 60%;
-	margin-right: 8%;
-	margin-top: -100px;
-	z-index: 1;
+	height: 80%;
+	width: 80%;
 	padding: 2%;
 	border-radius: 2%;
 	background-color: var(--main-black);
+	margin: auto;
 }
 .partner-form h3 {
 	margin: auto;
@@ -386,7 +383,7 @@ h6 {
 	padding: 2%;
 }
 .partner-form input,
-.partner-form textarea{
+.partner-form textarea {
 	padding: 3%;
 	margin: 2%;
 	/* outline: 2px solid lime; */
@@ -429,7 +426,6 @@ h6 {
 	background-color: var(--main-purple);
 } */
 
-
 /* .partner-form p {
 	position: relative;
 	text-align: center;
@@ -437,7 +433,7 @@ h6 {
 	margin: 0 2%;
 } */
 
-.partner-form div p{
+.partner-form div p {
 	position: absolute;
 	text-align: center;
 	margin-right: 12%;
@@ -453,8 +449,7 @@ footer {
 	display: flex;
 	color: var(--main-offwhite);
 	/* background-color: black; */
-	background-image: linear-gradient(
-	var(--main-black));
+	background-image: linear-gradient(var(--main-black));
 	/* outline: 2px solid black; */
 }
 
@@ -482,11 +477,7 @@ html body footer > .right-footer {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	background-image: linear-gradient(
-	var(--main-purple),	
-	var(--main-black)
-	)
-
+	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 
 .contactuspage section {
@@ -564,7 +555,7 @@ div > h2 {
 
 /* .contactright textarea {
 	margin: 0;
-} */ /* changed specificity in partner-form textarea*/  
+} */ /* changed specificity in partner-form textarea*/
 
 .contactright button {
 	height: 50px;
