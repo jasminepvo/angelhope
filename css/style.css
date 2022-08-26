@@ -218,10 +218,14 @@ header nav button a {
 	border-radius: 2%;
 	border: none;
 }
-.community-form button {
+.community-form button{
 	display: inline-block;
 	width: 20%;
 	background-color: var(--main-purple);
+}
+
+.community-form input {
+	width: 20%;
 }
 
 .community-form button a {
