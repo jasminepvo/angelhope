@@ -513,7 +513,6 @@ div > h2 {
 .contactright textarea {
 	width: 100%;
 	padding: 15px;
-	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 	border: none;
@@ -521,6 +520,7 @@ div > h2 {
 
 .contactright input,
 .contactright textarea {
+	margin-bottom: 10px;
 	background-color: #dbdbdb;
 }
 
