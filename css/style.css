@@ -528,3 +528,15 @@ div > h2 {
 	margin: 0;
 } */ /* changed specificity in partner-form textarea*/  
 
+.contactright button {
+	height: 50px;
+	width: 120px;
+	border-radius: 5px;
+	border-style: none;
+	display: block;
+	background-color: #5461dd;
+}
+
+.contactright button a {
+	color: white;
+}
