@@ -326,6 +326,11 @@ h6 {
 .partner-top h1 {
 	margin: 0 auto;
 	font-size: 3rem;
+	color:#dbdbdb;
+}
+
+.partner-top span {
+	color:#dbdbdb;
 }
 
 .partner-bottom {
