@@ -322,20 +322,21 @@ h6 {
 /* Section - Partner With Us
 /####################*/
 .partner-with-us {
-	height: 80%;
+	height: 105%;
 	width: 100%;
-	/* outline: 2px solid lightseagreen; */
+	outline: 2px solid lightseagreen;
 	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 .partner-top {
 	/* background-color: var(--main-purple); */
-	height: 25%;
+	height: 15%;
 	width: 100%;
 	padding-left: 5%;
 	color: var(--main-black);
 }
 .partner-top h1 {
 	margin: 0 auto;
+	padding-top: 2%;
 	font-size: 3rem;
 	text-align: center;
 	color: #dbdbdb;
@@ -347,9 +348,8 @@ h6 {
 
 .partner-bottom {
 	/* border: 2px solid hotpink; */
-	height: 75%;
+	height: 80%;
 	width: 100%;
-	display: flex;
 }
 .partner-steps {
 	height: 100%;
@@ -367,12 +367,12 @@ h6 {
 
 .partner-form {
 	/* border: 2px solid var(--main-offwhite); */
-	height: 80%;
+	height: 100%;
 	width: 80%;
 	padding: 2%;
-	border-radius: 2%;
+	border-radius: 1%;
 	background-color: var(--main-black);
-	margin: auto;
+	margin: 0 auto;
 }
 .partner-form h3 {
 	margin: auto;
