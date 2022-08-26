@@ -331,13 +331,13 @@ h6 {
 	height: 15%;
 	width: 100%;
 	color: var(--main-black);
+	display: flex;
 }
 .partner-top h1 {
-	margin: 0 auto;
-	padding-top: 5%;
+	margin: auto;
 	font-size: 3rem;
 	text-align: center;
-	color: #dbdbdb;
+	align-content: center;
 }
 
 .partner-bottom {
