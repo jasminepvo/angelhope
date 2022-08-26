@@ -409,8 +409,10 @@ footer {
 	width: 100%;
 	display: flex;
 	color: var(--main-offwhite);
-	background-color: black;
-	outline: 2px solid black;
+	/* background-color: black; */
+	background-image: linear-gradient(
+	var(--main-black));
+	/* outline: 2px solid black; */
 }
 
 footer div {
@@ -437,6 +439,11 @@ html body footer > .right-footer {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	background-image: linear-gradient(
+	var(--main-purple),	
+	var(--main-black)
+	)
+
 }
 
 .contactuspage section {
