@@ -340,10 +340,6 @@ h6 {
 	color: #dbdbdb;
 }
 
-.partner-top span {
-	color: #dbdbdb;
-}
-
 .partner-bottom {
 	/* border: 2px solid hotpink; */
 	height: 80%;
@@ -371,10 +367,9 @@ h6 {
 	border-radius: 1%;
 	background-color: var(--main-black);
 	margin: 0 auto;
+	text-align: center;
 }
-.partner-form h3 {
-	margin: auto;
-	margin-bottom: 40px;
+.partner-form p {
 }
 .partner-form form {
 	/* outline: 2px solid salmon; */
