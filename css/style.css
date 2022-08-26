@@ -219,8 +219,15 @@ header nav button a {
 	border: none;
 }
 .community-form button {
+	display: inline-block;
+	width: 20%;
 	background-color: var(--main-purple);
 }
+
+.community-form button a {
+	color: white;
+}
+
 
 /*#####################
 /* Section - About Us
