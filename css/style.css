@@ -324,7 +324,7 @@ h6 {
 .partner-with-us {
 	height: 105%;
 	width: 100%;
-	outline: 2px solid lightseagreen;
+	/* outline: 2px solid lightseagreen; */
 	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 .partner-top {
