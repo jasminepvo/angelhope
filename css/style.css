@@ -229,11 +229,7 @@ header nav button a {
 	/* outline: 2px solid orange; */
 	height: 240%;
 	width: 100%;
-	background-image: linear-gradient(
-		var(--main-black),
-		var(--main-black),
-		var(--main-purple)
-	);
+	background-image: linear-gradient(var(--main-black), var(--main-purple));
 }
 .about-heading h1 {
 	text-align: center;
