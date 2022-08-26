@@ -107,6 +107,7 @@ header nav button a {
 	width: 100%;
 	/* outline: 2px solid #5461dd; */
 	display: flex;
+	background-image: linear-gradient(var(--main-black));
 }
 
 .home > section {
@@ -203,8 +204,8 @@ header nav button a {
 /####################*/
 .join-our-community {
 	/* border: 2px solid salmon; */
-	height: 40%;
 	width: 100%;
+	height: 50%;
 }
 .community-main {
 	/* border: 2px solid lightseagreen; */
