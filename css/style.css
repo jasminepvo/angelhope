@@ -219,7 +219,7 @@ header nav button a {
 	border-radius: 2%;
 	border: none;
 }
-.community-form button{
+.community-form button {
 	display: inline-block;
 	width: 20%;
 	background-color: var(--main-purple);
@@ -232,7 +232,6 @@ header nav button a {
 .community-form button a {
 	color: white;
 }
-
 
 /*#####################
 /* Section - About Us
@@ -323,34 +322,28 @@ h6 {
 /* Section - Partner With Us
 /####################*/
 .partner-with-us {
-	height: 80%;
+	height: 105%;
 	width: 100%;
 	/* outline: 2px solid lightseagreen; */
 	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 .partner-top {
-	/* background-color: var(--main-purple); */
-	height: 25%;
+	height: 15%;
 	width: 100%;
-	padding-left: 5%;
 	color: var(--main-black);
+	display: flex;
 }
 .partner-top h1 {
-	margin: 0 auto;
+	margin: auto;
 	font-size: 3rem;
 	text-align: center;
-	color:#dbdbdb;
-}
-
-.partner-top span {
-	color:#dbdbdb;
+	align-content: center;
 }
 
 .partner-bottom {
 	/* border: 2px solid hotpink; */
-	height: 75%;
+	height: 80%;
 	width: 100%;
-	display: flex;
 }
 .partner-steps {
 	height: 100%;
@@ -368,25 +361,22 @@ h6 {
 
 .partner-form {
 	/* border: 2px solid var(--main-offwhite); */
-	height: 110%;
-	width: 60%;
-	margin-right: 8%;
-	margin-top: -100px;
-	z-index: 1;
+	height: 100%;
+	width: 70%;
 	padding: 2%;
-	border-radius: 2%;
+	border-radius: 1%;
 	background-color: var(--main-black);
+	margin: 0 auto;
+	text-align: center;
 }
-.partner-form h3 {
-	margin: auto;
-	margin-bottom: 40px;
+.partner-form p {
 }
 .partner-form form {
 	/* outline: 2px solid salmon; */
 	padding: 2%;
 }
 .partner-form input,
-.partner-form textarea{
+.partner-form textarea {
 	padding: 3%;
 	margin: 2%;
 	/* outline: 2px solid lime; */
@@ -429,7 +419,6 @@ h6 {
 	background-color: var(--main-purple);
 } */
 
-
 /* .partner-form p {
 	position: relative;
 	text-align: center;
@@ -437,7 +426,7 @@ h6 {
 	margin: 0 2%;
 } */
 
-.partner-form div p{
+.partner-form div p {
 	position: absolute;
 	text-align: center;
 	margin-right: 12%;
@@ -453,8 +442,7 @@ footer {
 	display: flex;
 	color: var(--main-offwhite);
 	/* background-color: black; */
-	background-image: linear-gradient(
-	var(--main-black));
+	background-image: linear-gradient(var(--main-black));
 	/* outline: 2px solid black; */
 }
 
@@ -482,11 +470,7 @@ html body footer > .right-footer {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	background-image: linear-gradient(
-	var(--main-purple),	
-	var(--main-black)
-	)
-
+	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 
 .contactuspage section {
@@ -564,7 +548,7 @@ div > h2 {
 
 /* .contactright textarea {
 	margin: 0;
-} */ /* changed specificity in partner-form textarea*/  
+} */ /* changed specificity in partner-form textarea*/
 
 .contactright button {
 	height: 50px;
