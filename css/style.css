@@ -369,8 +369,8 @@ h6 {
 	margin: 0 auto;
 	text-align: center;
 }
-.partner-form p {
-}
+/* .partner-form p {
+} */
 .partner-form form {
 	/* outline: 2px solid salmon; */
 	padding: 2%;
@@ -473,14 +473,19 @@ html body footer > .right-footer {
 	background-image: linear-gradient(var(--main-purple), var(--main-black));
 }
 
-.contactuspage section {
+.contactleft {
 	height: 100%;
-	width: 50%;
+	width: 60%;
+}
+
+.contactright{
+	height: 100%;
+	width: 40%;
 }
 
 .centered-img {
-	height: 60%;
-	width: 90%;
+	height: 40%;
+	width: 80%;
 	outline: 2px solid #5461dd;
 }
 
@@ -502,7 +507,7 @@ html body footer > .right-footer {
 
 div > h1 {
 	font-size: 45px;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 10%;
 	display: flex;
 	align-self: flex-start;
 }
@@ -510,11 +515,11 @@ div > h1 {
 div > h2 {
 	display: flex;
 	align-self: flex-end;
-	margin: 0 25px 0 0;
+	margin: 0 10% 0 0;
 	font-size: 45px;
 }
 
-.contactright div {
+.contactright > div {
 	height: 100%;
 	width: 100%;
 	padding: 200px 30px 0 0;
@@ -530,6 +535,13 @@ div > h2 {
 	padding: 0 0 30px 20px;
 }
 
+.contact-input{
+	width: 100%;
+	gap: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
 .contactright form,
 .contactright input,
 .contactright textarea {
@@ -542,8 +554,13 @@ div > h2 {
 
 .contactright input,
 .contactright textarea {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
+	border-radius: 15px;
 	background-color: #dbdbdb;
+}
+
+.contactright textarea {
+	padding-bottom: 30%;
 }
 
 /* .contactright textarea {
