@@ -92,11 +92,11 @@ header nav button {
 	margin-top: 2px;
 	border-radius: 5px;
 	border-style: none;
-	background-color: #5461dd;
+	background-color: var(--main-purple);
 }
 
 header nav button a {
-	color: white;
+	color: var(--main-black);
 }
 
 /*#####################
@@ -177,7 +177,7 @@ header nav button a {
 
 .features-box div > i {
 	font-size: 50px;
-	color: #5461dd;
+	color: var(--main-darkpurple);
 	padding-bottom: 5px;
 }
 
@@ -218,25 +218,38 @@ header nav button a {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	padding: 5% 100px;
+	color: var(--main-darkpurple);
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+	justify-content: center;
+	padding: 0 5%;
 }
-.community-form * {
-	padding: 1.2%;
-	border-radius: 2%;
+.community-main h1 {
+	color: var(--main-black);
+}
+.community-form #city {
+	width: 100px;
+	text-align: center;
+	border-radius: 10px;
 	border: none;
+	height: 30px;
 }
+
+.community-form #email {
+	width: 200px;
+	border-radius: 10px;
+	border: none;
+	height: 30px;
+}
+
 .community-form button {
-	display: inline-block;
-	width: 20%;
-	background-color: var(--main-purple);
-}
-
-.community-form input {
-	width: 20%;
-}
-
-.community-form button a {
-	color: white;
+	background-color: var(--main-black);
+	color: var(--main-purple);
+	border-radius: 18px;
+	padding: 10px;
+	text-align: center;
+	border: none;
 }
 
 /*#####################
@@ -299,7 +312,7 @@ div.vertical-line {
 	width: 100%;
 	display: flex;
 	background-color: var(--main-offwhite);
-	color: #0a0a0a;
+	color: var(--main-black);
 }
 .partners-logos {
 	height: 30%;
@@ -427,7 +440,7 @@ h6 {
 	border-radius: 5px;
 	border-style: none;
 	display: block;
-	background-color: #5461dd;
+	background-color: var(--main-purple);
 }
 
 .partner-form button a {
@@ -462,7 +475,7 @@ footer {
 	height: 10%;
 	width: 100%;
 	display: flex;
-	color: var(--main-offwhite);
+	color: var(--main-purple);
 	/* background-color: black; */
 	background-image: linear-gradient(var(--main-black));
 	/* outline: 2px solid black; */
@@ -478,7 +491,7 @@ footer div {
 }
 
 html body footer > .right-footer {
-	color: white;
+	color: var(--main-purple);
 	font-size: 24px;
 	gap: 20px;
 }
