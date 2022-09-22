@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/style.css" />
 
+		<!-- API Spreadsheet to link 'community-form' sheet -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.js"
 			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -44,26 +45,27 @@
 				});
 			}
 		</script>
+
+		<!-- API Spreadsheet to link 'partner-form' sheet -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.js"
 			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 			crossorigin="anonymous"
 		></script>
 		<script>
-			<script>
-				function SubForm() {
-					$.ajax({
-						url: "https://api.apispreadsheets.com/data/4kdBX5YJYvN4ciWf/",
-						type: "post",
-						data: $("#partner-form").serializeArray(),
-						success: function () {
-							alert("Form Data Submitted :)");
-						},
-						error: function () {
-							alert("There was an error :(");
-						},
-					});
-				}
+			function SubForm() {
+				$.ajax({
+					url: "https://api.apispreadsheets.com/data/4kdBX5YJYvN4ciWf/",
+					type: "post",
+					data: $("#partner-form").serializeArray(),
+					success: function () {
+						alert("Form Data Submitted :)");
+					},
+					error: function () {
+						alert("There was an error :(");
+					},
+				});
+			}
 		</script>
 	</head>
 	<body>
@@ -270,15 +272,19 @@
 					</div>
 				</section>
 				<section class="testimonials-box">
-					<img src="" alt="profile pic" />
+					<img
+						class="testimonial-img"
+						src="./assets/perlaheadshot.jpeg"
+						alt="profile pic"
+					/>
 					<p>
-						"I love [name] and would recommend it to anyone. Could not be easier
-						to use and our business has seen 200% more traction nightly with
-						loyal, repeat customers. Best decision we could have ever made is
-						implementing this tech to protect our clients."
+						"I love AngelHope and would recommend it to anyone. Could not be
+						easier to use and our business has seen 200% more traction nightly
+						with loyal, repeat customers. Best decision we could have ever made
+						is implementing this tech to protect our clients."
 					</p>
-					<h5>Bob Smith</h5>
-					<h6>Owner @Howl The Moon</h6>
+					<h5>Perla Atendand</h5>
+					<h6>Owner @Mystic Bar</h6>
 				</section>
 			</section>
 		</section>

@@ -334,6 +334,11 @@ div.vertical-line {
 h6 {
 	margin: 5px;
 }
+.testimonial-img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}
 
 /*#####################
 /* Section - Partner With Us
