@@ -328,7 +328,7 @@ div.vertical-line {
 }
 
 .testimonials-box {
-	outline: 2px solid var(--main-darkpurple);
+	box-shadow: 5px 5px 60px var(--main-darkpurple);
 	height: 60%;
 	width: 70%;
 	margin: 0 auto;
@@ -341,14 +341,22 @@ div.vertical-line {
 .testimonials-box p {
 	padding-left: 50px;
 	padding-right: 50px;
-	margin: 0, 200px;
+	margin: 20px, 200px, 0, 200px;
 }
-.testimonials-box h5,
+.testimonials-box h4,
 h6 {
 	margin: 5px;
 }
+.testimonials-box h4 {
+	color: var(--main-purple);
+	text-shadow: 2px 2px var(--main-black);
+	font-size: 1.4rem;
+}
+.testimonials-box h6 {
+	color: var(--main-darkpurple);
+}
 .testimonial-img {
-	width: 100px;
+	width: 120px;
 	height: auto;
 	border-radius: 50%;
 }
