@@ -33,9 +33,24 @@
 		<script>
 			function SubForm() {
 				$.ajax({
-					url: "https://api.apispreadsheets.com/data/o7UkLKBk3qDkTnvR/",
+					url: "https://api.apispreadsheets.com/data/2hdLhZHKpHlOKLIX/",
 					type: "post",
 					data: $("#community-form").serializeArray(),
+					success: function () {
+						alert("Form Data Submitted :)");
+					},
+					error: function () {
+						alert("There was an error :(");
+					},
+				});
+			}
+		</script>
+		<script>
+			function SubForm() {
+				$.ajax({
+					url: "https://api.apispreadsheets.com/data/4kdBX5YJYvN4ciWf/",
+					type: "post",
+					data: $("#partner-form").serializeArray(),
 					success: function () {
 						alert("Form Data Submitted :)");
 					},
@@ -142,8 +157,8 @@
 				</p>
 				<form class="community-form" id="community-form" action="">
 					<!-- for autocomplete on city: https://www.w3schools.com/howto/howto_js_autocomplete.asp -->
-					<input type="text" name="city" id="" value="City" />
-					<input type="email" name="email" id="" value="Email" />
+					<input type="text" name="city" id="" placeholder="City" />
+					<input type="email" name="email" id="" placeholder="Email" />
 					<button onclick="SubForm()">
 						<a href="#">Join The Community</a>
 					</button>
@@ -275,38 +290,53 @@
 						network of venues! Our clients report higher patron retention and
 						positive reviews after integrating our tech.
 					</p>
-					<form action="">
-						<input type="text" name="name" id="name" value="Your Name" />
+					<form id="partner-form" action="">
 						<input
 							type="text"
-							name="venue-name"
+							name="partner-name"
+							id="name"
+							placeholder="Your Name"
+						/>
+						<input
+							type="text"
+							name="partner-venue-name"
 							id="venue-name"
-							value="Venue Name"
+							placeholder="Venue Name"
 						/>
 						<input
 							type="text"
-							name="location"
+							name="partner-location"
 							id="location"
-							value="City, State"
+							placeholder="City, State"
 						/>
 						<input
 							type="text"
-							name="venue-website"
+							name="partner-venue-website"
 							id="venue-website"
-							value="Venue Website"
+							placeholder="Venue Website"
 						/>
-						<input type="email" name="email" id="email" value="Email" />
-						<input type="tel" name="phone" id="phone" value="Number" /> <br />
+						<input
+							type="email"
+							name="partner-email"
+							id="email"
+							placeholder="Email"
+						/>
+						<input
+							type="tel"
+							name="partner-phone"
+							id="phone"
+							placeholder="Number"
+						/>
+						<br />
 						<span>Additional details: </span>
 						<textarea
-							name="message"
+							name="partner-message"
 							id="message"
 							value="Any ddditional details"
 							cols="30"
 							rows="2"
 						></textarea>
-						<button><a href="#">Submit</a></button>
-						<!-- <input type="button" value="Submit" id="button" /> -->
+						<button onclick="SubForm()">Submit</button>
 						<div>
 							<p>
 								Whether you’re a nightlife enthusiast or a venue owner, we would
