@@ -22,6 +22,27 @@
             <!-- External CSS links -->
             <link rel="stylesheet" href="css/normalize.css" />
             <link rel="stylesheet" href="css/style.css" />
+
+            <!-- API -->
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+            <script>
+                function SubForm (){
+                    $.ajax({
+                        url:"https://api.apispreadsheets.com/data/k7aCIvRqkC1vucwb/",
+                        type:"post",
+                        data:$("#contactForm").serializeArray(),
+                        success: function(){
+                            alert("Form Data Submitted :)")
+                        },
+                        error: function(){
+                            alert("There was an error :(")
+                        }
+                    });
+                }
+            </script>
 	</head>
     <body>
         <div class="contactuspage">
@@ -47,7 +68,7 @@
                         
                         <textarea name="contactMessage" placeholder="Your Message"></textarea>
                     </form>
-                    <button><a href="#">Submit</a></button>            
+                    <button onclick='SubForm()'><a href="#">Submit</a></button>            
                 </div>
 
             </section>
