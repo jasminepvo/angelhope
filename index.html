@@ -23,6 +23,28 @@
 		<!-- External CSS links -->
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Save Web Form Data to Spreadsheets - Contact Form</title>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			function SubForm() {
+				$.ajax({
+					url: "https://api.apispreadsheets.com/data/o7UkLKBk3qDkTnvR/",
+					type: "post",
+					data: $("#community-form").serializeArray(),
+					success: function () {
+						alert("Form Data Submitted :)");
+					},
+					error: function () {
+						alert("There was an error :(");
+					},
+				});
+			}
+		</script>
 	</head>
 	<body>
 		<!-- zira -->
@@ -118,11 +140,13 @@
 					development. By joining the community, it will enhance our ability to
 					improve and make it the best possible experience for you.
 				</p>
-				<form class="community-form" action="">
+				<form class="community-form" id="community-form" action="">
 					<!-- for autocomplete on city: https://www.w3schools.com/howto/howto_js_autocomplete.asp -->
 					<input type="text" name="city" id="" value="City" />
-					<input type="email" name="" id="" value="Email" />
-					<button><a href="#">Join The Community</a></button>
+					<input type="email" name="email" id="" value="Email" />
+					<button onclick="SubForm()">
+						<a href="#">Join The Community</a>
+					</button>
 				</form>
 			</section>
 		</section>
