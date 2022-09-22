@@ -290,23 +290,34 @@ div.vertical-line {
 /####################*/
 .partnerships {
 	/* outline: 2px solid salmon; */
+	height: 70%;
+	width: 100%;
+	display: flex;
+	background-color: var(--main-offwhite);
+	color: #0a0a0a;
+}
+.partners-logos {
 	height: 30%;
 	width: 100%;
 	display: flex;
-}
-.partners-logos {
-	height: 20%;
-	width: 100%;
-	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding: 50px 0;
+}
+.partner-logo {
+	width: 150px;
+	margin: 10px;
 }
 
 .testimonials-box {
-	outline: 2px solid var(--main-purple);
+	outline: 2px solid var(--main-darkpurple);
 	height: 60%;
-	width: 60%;
-	margin: auto;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
 .testimonials-box p {
