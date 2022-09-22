@@ -41,7 +41,8 @@ video {
 	--font: "Poppins", "Source Sans Pro", "Roboto Condensed", sans-serif;
 	--font-backup: "Montserrat Alternatives", "Source Sans Pro",
 		"Roboto Condensed", sans-serif;
-	--main-purple: #5461dd;
+	--main-purple: #d6d9fc;
+	--main-darkpurple: #525895;
 	--main-black: #0a0a0a;
 	--main-offwhite: #dbdbdb;
 }
@@ -478,7 +479,7 @@ html body footer > .right-footer {
 	width: 60%;
 }
 
-.contactright{
+.contactright {
 	height: 100%;
 	width: 40%;
 }
@@ -535,7 +536,7 @@ div > h2 {
 	padding: 0 0 30px 20px;
 }
 
-.contact-input{
+.contact-input {
 	width: 100%;
 	gap: 15px;
 	display: flex;
