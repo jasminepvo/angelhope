@@ -207,6 +207,11 @@ header nav button a {
 	/* border: 2px solid salmon; */
 	width: 100%;
 	height: 50%;
+	background-image: linear-gradient(
+		var(--main-darkpurple),
+		var(--main-purple),
+		var(--main-offwhite)
+	);
 }
 .community-main {
 	/* border: 2px solid lightseagreen; */
