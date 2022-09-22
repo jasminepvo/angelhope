@@ -406,73 +406,64 @@ h6 {
 	/* border: 2px solid var(--main-offwhite); */
 	height: 100%;
 	width: 70%;
-	padding: 2%;
+	padding: 50px;
 	border-radius: 1%;
 	background-color: var(--main-black);
 	margin: 0 auto;
 	text-align: center;
 }
-/* .partner-form p {
-} */
-.partner-form form {
-	/* outline: 2px solid salmon; */
-	padding: 2%;
-}
+
 .partner-form input,
 .partner-form textarea {
-	padding: 3%;
-	margin: 2%;
 	/* outline: 2px solid lime; */
-	border-radius: 2%;
+	border-radius: 10px;
 	border: none;
-	background-color: var(--main-offwhite);
+	background-color: var(--main-purple);
+	color: var(--main-black);
 	justify-content: center;
 	align-items: center;
-	color: var(--main-black);
+	padding: 2.5% 3%;
+	margin: 2%;
+}
+/* Form Spacing  */
+#partner-form #name {
+	width: 50%;
+}
+#partner-form #location {
+	width: 40%;
+}
+#partner-form #venue-name {
+	width: 35%;
+}
+#partner-form #venue-website {
+	width: 55%;
+}
+#partner-form #email {
+	width: 60%;
+}
+#partner-form #phone {
+	width: 30%;
+}
+
+#message {
+	width: 96%;
+	max-width: 96%;
 }
 
 .partner-form span {
+	display: flex;
 	margin-left: 2%;
-}
-.partner-form textarea {
-	margin-top: 0;
-}
-#message {
-	width: 90%;
 }
 
 .partner-form button {
-	height: 50px;
-	width: 120px;
-	margin: 2%;
-	border-radius: 5px;
+	background-color: var(--main-darkpurple);
+	color: var(--main-purple);
+	border-radius: 15px;
+	box-shadow: 1px 10px 35px var(--main-purple);
 	border-style: none;
-	display: block;
-	background-color: var(--main-purple);
-}
-
-.partner-form button a {
-	color: white;
-}
-
-/* 
-#button {
-	display: flex;
-	justify-content: center;
-	background-color: var(--main-purple);
-} */
-
-/* .partner-form p {
-	position: relative;
-	text-align: center;
-	display: flex;
-	margin: 0 2%;
-} */
-
-.partner-form div p {
-	position: absolute;
-	text-align: center;
-	margin-right: 12%;
+	padding: 15px 0;
+	margin: 2%;
+	width: 96%;
 }
 
 /*#####################
