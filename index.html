@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Leya</title>
+		<title>AngelHope</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 		<!-- External font links -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,11 +25,12 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/style.css" />
 
-	
+		<!-- API Spreadsheet to link 'community-form' sheet -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.js"
 			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-			crossorigin="anonymous"></script>
+			crossorigin="anonymous"
+		></script>
 		<script>
 			function SubForm() {
 				$.ajax({
@@ -44,11 +46,13 @@
 				});
 			}
 		</script>
+
+		<!-- API Spreadsheet to link 'partner-form' sheet -->
 		<script
-		src="https://code.jquery.com/jquery-3.4.1.js"
-		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-		crossorigin="anonymous"></script>
-		<script>
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"
+		></script>
 		<script>
 			function SubForm() {
 				$.ajax({
@@ -68,9 +72,9 @@
 	<body>
 		<!-- zira -->
 		<header>
-			<img />
+			<img src="./assets/angelhopelogo.jpg" />
 			<nav>
-				<ul>
+				<ul class="hover">
 					<li><a href="https://angelhope.netlify.app/">Home</a></li>
 					<!-- jump to main or leave it linked to the URL ? -->
 					<li><a href="#how-it-works">How It Works</a></li>
@@ -78,10 +82,7 @@
 					<li><a href="#about-us">About Us</a></li>
 					<li><a href="#partner-with-us">Partner With Us</a></li>
 					<button>
-						<a href="/contactus.html"
-							>Contact Us <i class="fa-solid fa-arrow-right-long"></i
-						></a>
-						<!-- link it from navbar to email ? -->
+						<a href="/contactus.html">Contact Us</a>
 					</button>
 				</ul>
 			</nav>
@@ -111,11 +112,13 @@
 		<!-- zira -->
 		<section class="how-it-works" id="how-it-works">
 			<section class="features-heading">
-				<h1>How Leya Works</h1>
+				<h1>How AngelHope Works</h1>
 				<p>
-					Leya is aimed to protect YOU and not only provide all women/non-binary
+					AngelHope is aimed to protect YOU and provide all women/non-binary
 					with a safe environment surrounded by personnel who have been trained
-					to protect, but also make sure you have an amazing, fun experience!
+					to measures when danger arises. Our hope is ALSO to make sure you have
+					an amazing, fun experience with in-app promos curteous to our
+					partnered venues!
 				</p>
 			</section>
 			<section class="features-box">
@@ -161,15 +164,14 @@
 				</p>
 				<form class="community-form" id="community-form" action="">
 					<!-- for autocomplete on city: https://www.w3schools.com/howto/howto_js_autocomplete.asp -->
-					<input type="text" name="city" id="" placeholder="City" />
-					<input type="email" name="email" id="" placeholder="Email" />
-					<button onclick="SubForm()">
-						<a href="#">Join The Community</a>
-					</button>
+					<input type="text" name="city" id="city" placeholder="City" />
+					<input type="email" name="email" id="email" placeholder="Email" />
+					<button onclick="SubForm()">Join The Community</button>
 				</form>
 			</section>
 		</section>
 		<!-- jas -->
+		<!-- Hide old version
 		<section class="about-us" id="about-us">
 			<section class="about-heading">
 				<h1>About Us</h1>
@@ -239,30 +241,52 @@
 				</div>
 			</section>
 		</section>
+		-->
 		<!-- jas -->
-		<!-- <section class="partnerships">
+		<section class="partnerships">
 			<section>
 				<section class="partners-logos">
+					<h1>Featured Partners</h1>
 					<div>
-						<img src="" alt="partner svg" />
-						<img src="" alt="partner svg" />
-						<img src="" alt="partner svg" />
-						<img src="" alt="partner svg" />
+						<img
+							class="partner-logo"
+							src="./assets/brickhouseLogo.png"
+							alt="partner logo"
+						/>
+						<img
+							class="partner-logo"
+							src="./assets/mysticbarsLogo.png"
+							alt="partner logo"
+						/>
+						<img
+							class="partner-logo"
+							src="./assets/thedistilleryLogo.png"
+							alt="partner logo"
+						/>
+						<img
+							class="partner-logo"
+							src="./assets/aromatherapygalsLogo.png"
+							alt="partner logo"
+						/>
 					</div>
 				</section>
 				<section class="testimonials-box">
-					<img src="" alt="profile pic" />
+					<img
+						class="testimonial-img"
+						src="./assets/perlaheadshot.jpeg"
+						alt="profile pic"
+					/>
 					<p>
-						"I love [name] and would recommend it to anyone. Could not be easier
-						to use and our business has seen 200% more traction nightly with
-						loyal, repeat customers. Best decision we could have ever made is
-						implementing this tech to protect our clients."
+						"I love AngelHope and would recommend it to anyone. Could not be
+						easier to use and our business has seen 200% more traction nightly
+						with loyal, repeat customers. Best decision we could have ever made
+						is implementing this tech to protect our clients."
 					</p>
-					<h5>Bob Smith</h5>
-					<h6>Owner @Howl The Moon</h6>
+					<h4>-Perla Atendand</h4>
+					<h6>Business Owner @Mystic Bar</h6>
 				</section>
 			</section>
-		</section> -->
+		</section>
 		<!-- jas -->
 		<section class="partner-with-us" id="partner-with-us">
 			<section class="partner-top">
@@ -299,19 +323,19 @@
 							type="text"
 							name="partner-name"
 							id="name"
-							placeholder="Your Name"
-						/>
-						<input
-							type="text"
-							name="partner-venue-name"
-							id="venue-name"
-							placeholder="Venue Name"
+							placeholder="Name"
 						/>
 						<input
 							type="text"
 							name="partner-location"
 							id="location"
 							placeholder="City, State"
+						/>
+						<input
+							type="text"
+							name="partner-venue-name"
+							id="venue-name"
+							placeholder="Venue Name"
 						/>
 						<input
 							type="text"
@@ -341,14 +365,12 @@
 							rows="2"
 						></textarea>
 						<button onclick="SubForm()">Submit</button>
-						<div>
-							<p>
-								Whether you’re a nightlife enthusiast or a venue owner, we would
-								love to get your feedback. Contact us at liv@domain and we’ll
-								get back to you ASAP!
-							</p>
-						</div>
 					</form>
+					<p>
+						Whether you’re a nightlife enthusiast or a venue owner, we would
+						love to get your feedback. Contact us at liv@domain and we’ll get
+						back to you ASAP!
+					</p>
 				</div>
 			</section>
 		</section>
@@ -358,7 +380,7 @@
 				<span>All Rights Reserved, 2022.</span>
 			</div>
 			<div class="middle-footer">
-				<img />
+				<img src="./assets/angelhopelogo.jpg" />
 			</div>
 			<div class="right-footer">
 				<a href="#"><i class="fa-brands fa-instagram"></i></a>
