@@ -67,19 +67,28 @@ li {
 /*#####################
 /* NavBar
 /####################*/
-
+header {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	padding: 0 50px;
+}
+header img {
+	width: 20%;
+}
 nav {
 	height: 100%;
+	width: 85%;
 	display: flex;
 	justify-content: flex-end;
-	align-content: center;
-	margin-right: 15px;
 }
 
 ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
+	margin: 0%;
 }
 
 li {
@@ -89,7 +98,6 @@ li {
 header nav button {
 	height: 40px;
 	width: 140px;
-	margin-top: 2px;
 	border-radius: 5px;
 	border-style: none;
 	background-color: var(--main-purple);
@@ -488,6 +496,11 @@ footer div {
 	align-items: center;
 	/* outline: 2px solid white; */
 }
+.middle-footer img {
+	height: 80%;
+	width: 35%;
+	margin-bottom: 30px;
+}
 
 html body footer > .right-footer {
 	color: var(--main-purple);
@@ -526,14 +539,6 @@ html body footer > .right-footer {
 	background-color: var(--main-darkpurple);
 	border: 1px solid var(--main-black);
 	box-shadow: 5px 10px 35px var(--main-black);
-}
-button:hover {
-	background-color: var(--main-white);
-	transition: 0.3s ease-in;
-}
-a:hover {
-	color: var(--main-black);
-	transition: 0.3s ease-in;
 }
 
 .contactleft div {
@@ -626,4 +631,20 @@ div > h2 {
 
 .contactright button a {
 	color: var(--main-purple);
+}
+
+/*#############################################################################*/
+/*********************************** TRANSITIONS  ******************************/
+/*#############################################################################*/
+.contactuspage button:hover,
+.hover button:hover,
+.community-form button:hover,
+.partner-form button:hover {
+	background-color: white;
+	transition: 0.3s ease-in;
+}
+.contactuspage a:hover,
+.community-form a:hover {
+	color: var(--main-black);
+	transition: 0.3s ease-in;
 }
