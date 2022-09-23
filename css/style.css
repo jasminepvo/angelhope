@@ -651,10 +651,12 @@ div > h2 {
 .community-form button:hover,
 .partner-form button:hover {
 	background-color: white;
+	color: var(--main-darkpurple);
 	transition: 0.3s ease-in;
 }
 .contactuspage a:hover,
-.community-form a:hover {
+.community-form a:hover,
+.hover a:hover {
 	color: var(--main-black);
 	transition: 0.3s ease-in;
 }
