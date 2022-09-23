@@ -246,6 +246,7 @@ header nav button a {
 
 .community-form #email {
 	width: 200px;
+	text-align: center;
 	border-radius: 10px;
 	border: none;
 	height: 30px;
