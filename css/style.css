@@ -321,6 +321,7 @@ div.vertical-line {
 	display: flex;
 	background-color: var(--main-offwhite);
 	color: var(--main-black);
+	text-align: center;
 }
 .partners-logos {
 	height: 30%;
@@ -333,6 +334,15 @@ div.vertical-line {
 .partner-logo {
 	width: 150px;
 	margin: 10px;
+}
+.partner-logo {
+	overflow: hidden;
+	transition-duration: 0.8s;
+	transition-property: transform;
+}
+.partner-logo:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
 }
 
 .testimonials-box {
