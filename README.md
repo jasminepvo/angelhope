@@ -11,7 +11,7 @@ AngelHope is a tech that allows nightlife clientele to report sexual harassment 
 
 **Tech used:** HTML, CSS, JavaScript, API Spreadsheet, Netlify, Plasmic
 
-A rough wireframe was designed in Plasmic. Contributions to the building of the site were completed by both [Jasmine Vo](https://github.com/jasminepvo) and [Zira Serrano](https://github.com/ziraserrano). 
+A rough wireframe was designed in Plasmic. Contributions to the building of the site were completed by both [Jasmine Vo](https://github.com/jasminepvo) and [Zira Serrano](https://github.com/ziraserrano). <br>
 Jasmine's contributions:
 - Join Our Community
 - Featured Partners
