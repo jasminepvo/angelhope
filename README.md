@@ -3,13 +3,22 @@ AngelHope is a tech that allows nightlife clientele to report sexual harassment 
 
 **Link to project:** https://angelhope.netlify.app/
  
-![angelhopelayout](https://user-images.githubusercontent.com/99847030/191879140-5e897eeb-b0f6-4d4e-926e-ebcc575579ea.png)
-![Screen Shot 2022-09-22 at 10 02 12 PM](https://user-images.githubusercontent.com/99847030/191879820-a37fbe15-a225-4d87-9b21-a003910b57fe.jpg)
+![angelhope](https://user-images.githubusercontent.com/99847030/196755162-48d16314-6253-4b3e-9d38-dccd5c03f27f.gif)
 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, API Spreadsheet, Netlify, Plasmic
+**Tech used:** <div style="display: flex; flex-direction: row;" align=left >
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=HTML5&logoColor=white&labelColor=AD9D90&label=&message=HTML&color=AD9D90"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=CSS3&logoColor=white&labelColor=AD9D90&label=&message=CSS&color=AD9D90"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=javascript&logoColor=white&labelColor=AD9D90&label=&message=JAVASCRIPT&color=AD9D90"/>
+  </a> 
+</div>
 
 A rough wireframe was designed in Plasmic. Contributions to the building of the site were completed by both [Jasmine Vo](https://github.com/jasminepvo) and [Zira Serrano](https://github.com/ziraserrano). <br>
 Jasmine's contributions:
@@ -42,18 +51,15 @@ We learned how to work in a collaborative environment making PR's or using VSCod
 - How to build a wireframe
 
 ## Examples:
-Take a look at these couple examples of our other work:
+Take a look at these couple examples of other works:
 
 ### Jasmine's:
 
+**Chiro CMS:** https://github.com/jasminepvo/chirocms
+
+**Travel Gal:** https://github.com/jasminepvo/travel-journal 
+
 **Manifest:** https://github.com/jasminepvo/manifest
 
-**Etch A Sketch:** https://github.com/jasminepvo/etch-a-sketch
-
-**Rock Paper Scissors:** https://github.com/jasminepvo/rock-paper-scissors
 
 <br>
-
-### Ziras's:
-
-**Title:** 
